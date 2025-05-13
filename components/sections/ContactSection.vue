@@ -6,7 +6,7 @@
         Entre em contato conosco para tirar dúvidas ou solicitar um orçamento
       </p>
 
-      <div class="grid md:grid-cols-2 gap-12 items-start">
+      <div class="grid md:grid-cols-2 gap-8 lg:gap-12 items-start">
         <!-- Contact Info -->
         <div class="space-y-8">
           <div>
@@ -29,11 +29,11 @@
               </div>
             </div>
 
-            <div class="flex items-start space-x-4">
+            <div class="flex items-start space-x-4 flex-wrap">
               <div class="w-12 h-12 rounded-full bg-primary bg-opacity-10 flex items-center justify-center flex-shrink-0">
                 <i class="fas fa-envelope text-gray-100"></i>
               </div>
-              <div>
+              <div class="break-all">
                 <h4 class="font-semibold mb-1">E-mail</h4>
                 <a href="mailto:rbltoquemagico@gmail.com" class="text-gray-600 hover:text-primary transition-colors">
                   rbltoquemagico@gmail.com
@@ -56,7 +56,15 @@
 
           <div class="mb-8">
             <div class="w-full h-96 rounded-lg overflow-hidden">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d452627.5912918407!2d-48.655212!3d-27.588784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527395239a50a3d%3A0x3547b6c400b37329!2sRegi%C3%A3o%20Metropolitana%20de%20Florian%C3%B3polis%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1747102363019!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d452627.5912918407!2d-48.655212!3d-27.588784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527395239a50a3d%3A0x3547b6c400b37329!2sRegi%C3%A3o%20Metropolitana%20de%20Florian%C3%B3polis%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1747102363019!5m2!1spt-BR!2sbr" 
+                class="w-full h-full"
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
           </div>
 
           <div>
@@ -83,6 +91,7 @@
         </div>
 
         <!-- Contact Form -->
+        <h3 class="text-2xl font-bold mb-6 md:hidden text-center">Entre em Contato</h3>
         <form 
           action="https://formspree.io/f/your-form-id" 
           method="POST"
