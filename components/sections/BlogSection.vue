@@ -31,7 +31,7 @@
             <div class="flex items-center justify-between">
               <div class="flex items-center">
                 <img 
-                  :src="post.author.avatar" 
+                  src="~/assets/images/rosimeri.jpg" 
                   :alt="post.author.name"
                   class="w-10 h-10 rounded-full mr-3"
                 >
