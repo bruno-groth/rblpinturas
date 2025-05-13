@@ -54,6 +54,11 @@
             </div>
           </div>
 
+          <div class="mb-8">
+            <div class="w-full h-96 rounded-lg overflow-hidden">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d452627.5912918407!2d-48.655212!3d-27.588784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527395239a50a3d%3A0x3547b6c400b37329!2sRegi%C3%A3o%20Metropolitana%20de%20Florian%C3%B3polis%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1747102363019!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+          </div>
+
           <div>
             <h4 class="font-semibold mb-3">Siga-nos</h4>
             <div class="flex space-x-4">

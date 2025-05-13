@@ -3,8 +3,8 @@
     <div class="container">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
         <!-- Logo and Description -->
-        <div>
-          <img src="https://assets.website-files.com/6493dcfff5de03b7e6788334/6493dd0023d1713702f10262_logo-white.svg" alt="RBL Toque Mágico Pinturas" class="h-12 mb-4">
+        <div class="flex flex-col items-center text-center">
+          <img src="~/assets/images/logo.png" alt="RBL Toque Mágico Pinturas" class="h-20 mb-6 brightness-0 invert">
           <p class="mb-6">Transformando ambientes com cores e texturas há 20 anos.</p>
           <div class="flex space-x-3">
             <a href="https://instagram.com/rblpinturas" target="_blank" rel="noopener noreferrer" class="social-icon">

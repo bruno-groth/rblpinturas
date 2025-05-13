@@ -5,12 +5,13 @@
     <div class="container">
       <nav class="flex items-center justify-between py-4">
         <!-- Logo -->
-        <nuxt-link to="/" class="flex-shrink-0">
+        <nuxt-link to="/" class="flex-shrink-0 flex items-center">
           <img 
-            :src="isScrolled || isMenuOpen ? '~/assets/images/logo.svg' : '~/assets/images/logo-white.svg'" 
+            src="~/assets/images/logo.png" 
             alt="RBL Toque Mágico Pinturas"
-            class="h-12"
+            class="h-12 mr-3"
           >
+          <span class="text-lg font-medium">RBL Toque Mágico Pinturas</span>
         </nuxt-link>
 
         <!-- Desktop Navigation -->
