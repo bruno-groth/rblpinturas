@@ -16,11 +16,11 @@
             <div class="flex items-center">
               <img 
                 src="~/assets/images/rosimeri.jpg"
-                alt="Bruno Santos"
+                alt="Rosimeri Groth"
                 class="w-12 h-12 rounded-full mr-3"
               >
               <div>
-                <p class="font-medium text-gray-900">Bruno Santos</p>
+                <p class="font-medium text-gray-900">Rosimeri Groth</p>
                 <p class="text-sm">05 Mai 2025</p>
               </div>
             </div>
