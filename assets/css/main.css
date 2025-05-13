@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Variables */
+:root {
+  --primary: #5b3cf0;
+  --secondary: #00a8e8;
+  --accent: #f25c54;
+  --yellow: #ffbe0b;
+  --purple: #9656a1;
+  --white: #ffffff;
+  --light-gray: #f5f5f5;
+  --dark: #2d3142;
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Common Components */
+.btn {
+  @apply px-6 py-3 rounded-full font-semibold transition duration-300;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-opacity-90;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white hover:bg-opacity-90;
+}
+
+.btn-accent {
+  @apply bg-accent text-white hover:bg-opacity-90;
+}
+
+/* Transitions */
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
+/* Sections */
+.section {
+  @apply py-20;
+}
+
+.section-title {
+  @apply text-4xl font-bold text-center mb-12;
+}
+
+/* Forms */
+.form-input {
+  @apply w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary focus:ring-opacity-50;
+}
+
+.form-label {
+  @apply block text-sm font-medium mb-1;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out;
+}
