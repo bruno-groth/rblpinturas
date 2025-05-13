@@ -79,7 +79,7 @@
                 <i class="fab fa-instagram"></i>
               </a>
               <a 
-                href="https://wa.me/5549998324991" 
+                href="https://wa.me/5549998324991?text=Olá! Gostaria de mais informações sobre seus serviços de pintura."
                 target="_blank" 
                 rel="noopener noreferrer"
                 class="w-10 h-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center hover:bg-primary text-white hover:text-gray-200 transition-colors"

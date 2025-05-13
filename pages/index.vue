@@ -42,7 +42,7 @@
             style="animation-delay: 0.4s"
           >
             <a
-              href="https://wa.me/5549998324991"
+              href="https://wa.me/5549998324991?text=Olá! Gostaria de um orçamento para transformar meu ambiente com seus serviços de pintura."
               target="_blank"
               rel="noopener noreferrer"
               class="btn bg-white text-primary hover:bg-opacity-90 inline-flex items-center"

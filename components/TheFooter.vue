@@ -13,7 +13,12 @@
             <a href="#" class="social-icon">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="https://wa.me/5549998324991" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <a 
+              href="https://wa.me/5549998324991?text=Olá! Gostaria de mais informações sobre seus serviços."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-10 h-10 rounded-full bg-primary bg-opacity-10 flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
+            >
               <i class="fab fa-whatsapp"></i>
             </a>
           </div>
