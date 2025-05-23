@@ -24,8 +24,6 @@
             <i class="fab fa-whatsapp mr-2"></i>
             WhatsApp
           </a>
-          <a href="#contact" class="btn btn-outline"> Formulário de Contato </a
-          >https://wa.me
         </div>
       </div>
     </div>

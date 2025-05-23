@@ -120,11 +120,11 @@
             <li>Amarelo (em detalhes): estimula a criatividade</li>
           </ul>
 
-          <div class="bg-primary bg-opacity-10 p-8 rounded-lg my-8">
+          <div class="bg-gray-100 p-8 rounded-lg my-8">
             <h3 class="text-2xl font-bold text-primary mb-4">
               Transforme Sua Casa com o Poder das Cores
             </h3>
-            <p class="mb-6">
+            <p class="text-gray-600 mb-6">
               Na RBL Pinturas, não apenas aplicamos cores - criamos experiências
               através delas. Nossa equipe especializada combina conhecimento
               técnico e sensibilidade para desenvolver projetos cromáticos que
@@ -134,7 +134,7 @@
               href="https://wa.me/5549998324991"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center text-white bg-primary px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors"
+              class="inline-flex items-center bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors"
             >
               <i class="fab fa-whatsapp mr-2"></i>
               Comece Sua Transformação Hoje

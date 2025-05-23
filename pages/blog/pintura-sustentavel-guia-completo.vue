@@ -32,6 +32,11 @@
 
         <!-- Content -->
         <div class="prose prose-lg max-w-none md:prose-xl">
+          <img
+            src="https://images.unsplash.com/photo-1508176694280-0cd2b6509a17?q=80&w=2069"
+            alt="Pintura sustentável e materiais ecológicos"
+            class="w-full h-[400px] object-cover rounded-lg mb-8"
+          />
           <p class="lead">
             A consciência ambiental é cada vez mais importante em todos os
             aspectos de nossas vidas, incluindo a pintura de nossos espaços.
@@ -119,7 +124,7 @@
             <li>Soluções antimicrobianas naturais</li>
           </ul>
 
-          <div class="bg-primary bg-opacity-10 p-8 rounded-lg my-8">
+          <div class="bg-gray-100 bg-opacity-10 p-8 rounded-lg my-8">
             <h3 class="text-2xl font-bold text-primary mb-4">
               Faça Parte da Mudança para um Futuro mais Sustentável
             </h3>

@@ -10,16 +10,14 @@
           ambientes, compartilhadas através de mais de 22 anos de experiência em pintura.
         </p>
 
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-12"
-        >
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto px-4 sm:px-6">
           <!-- Post Item -->
           <article class="group">
             <div class="aspect-w-16 aspect-h-9 mb-6 overflow-hidden rounded-xl">
               <img
-                src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070"
+                src="https://images.unsplash.com/photo-1615876234886-fd9a39fda97f?q=80&w=2832"
                 alt="Psicologia das Cores"
-                class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+                class="object-cover w-full h-full max-h-[400px] group-hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div class="space-y-3">
@@ -64,7 +62,7 @@
               <img
                 src="https://images.unsplash.com/photo-1604147706283-d7119b5b822c?q=80&w=2070"
                 alt="Tendências em Texturas"
-                class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+                class="object-cover w-full h-full max-h-[400px] group-hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div class="space-y-3">
@@ -106,9 +104,9 @@
           <article class="group">
             <div class="aspect-w-16 aspect-h-9 mb-6 overflow-hidden rounded-xl">
               <img
-                src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070"
+                src="https://images.unsplash.com/photo-1581091870598-56a77b7e6520?q=80&w=2940"
                 alt="Guia de Manutenção"
-                class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+                class="object-cover w-full h-full max-h-[400px] group-hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div class="space-y-3">
@@ -152,7 +150,7 @@
               <img
                 src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070"
                 alt="Pintura Sustentável"
-                class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-300"
+                class="object-cover w-full h-full max-h-[400px] group-hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div class="space-y-3">
@@ -192,15 +190,15 @@
           </article>
         </div>
 
-        <div class="mt-16 text-center">
-          <p class="text-xl text-gray-600 mb-8">
+        <div class="mt-16 text-center px-4 sm:px-6">
+          <p class="text-lg sm:text-xl text-gray-600 mb-8">
             Quer transformar seus ambientes com mais de 22 anos de experiência em pintura?
           </p>
           <a
             href="https://wa.me/5549998324991"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center text-white bg-primary px-8 py-4 rounded-lg hover:bg-primary-dark transition-colors text-lg"
+            class="inline-flex items-center bg-primary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg hover:bg-primary/90 transition-colors text-base sm:text-lg"
           >
             <i class="fab fa-whatsapp mr-2"></i>
             Entre em Contato

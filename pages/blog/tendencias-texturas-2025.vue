@@ -126,18 +126,18 @@
             <li>Processos de aplicação com baixo impacto ambiental</li>
           </ul>
 
-          <div class="bg-primary bg-opacity-10 p-8 rounded-lg my-8">
-            <h3 class="text-2xl font-bold text-white mb-4">
+          <div class="bg-gray-100 p-8 rounded-lg my-8">
+            <h3 class="text-2xl font-bold text-primary mb-4">
               Transforme Seus Ambientes com as Últimas Tendências em Texturas
             </h3>
-            <p class="mb-6">
+            <p class="text-gray-600 mb-6">
               Com mais de duas décadas de experiência em pintura e texturas, trago para a Grande Florianópolis um trabalho especializado e personalizado. Estou pronta para transformar sua visão em realidade.
             </p>
             <a
               href="https://wa.me/5549998324991"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center text-white bg-primary px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors"
+              class="inline-flex items-center bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors"
             >
               <i class="fab fa-whatsapp mr-2"></i>
               Agende uma Consulta Gratuita

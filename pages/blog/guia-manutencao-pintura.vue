@@ -31,6 +31,11 @@
 
         <!-- Content -->
         <div class="prose prose-lg max-w-none md:prose-xl">
+          <img
+            src="https://images.unsplash.com/photo-1627046088445-54a254d1792c?q=80&w=2070"
+            alt="Pessoa realizando manutenção de pintura"
+            class="w-full h-[400px] object-cover rounded-lg mb-8"
+          />
           <p class="lead">
             Investir em uma pintura de qualidade é apenas o primeiro passo. A
             manutenção adequada é o segredo para preservar a beleza e proteger
@@ -150,11 +155,11 @@
             </li>
           </ul>
 
-          <div class="bg-primary bg-opacity-10 p-8 rounded-lg my-8">
+          <div class="bg-gray-100 p-8 rounded-lg my-8">
             <h3 class="text-2xl font-bold text-primary mb-4">
               Garanta a Longevidade da Sua Pintura com Expertise Profissional
             </h3>
-            <p class="mb-6">
+            <p class="text-gray-600 mb-6">
               Com mais de duas décadas de experiência, a RBL Pinturas oferece
               soluções completas em manutenção e restauração de pinturas. Nossa
               equipe especializada está pronta para desenvolver um plano
@@ -164,7 +169,7 @@
               href="https://wa.me/5549998324991"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center text-white bg-primary px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors"
+              class="inline-flex items-center bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors"
             >
               <i class="fab fa-whatsapp mr-2"></i>
               Solicite um Diagnóstico Gratuito
