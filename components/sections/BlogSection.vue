@@ -3,7 +3,7 @@
     <div class="container">
       <h2 class="section-title">Blog</h2>
       <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-        Dicas, novidades e inspirações sobre pintura e decoração
+        Compartilho minha experiência de mais de 22 anos através de dicas e insights sobre pintura e decoração
       </p>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -65,10 +65,10 @@
 const posts = [
   {
     id: 1,
-    title: 'Como Escolher as Cores Ideais para Sua Casa',
-    excerpt: 'Aprenda as técnicas e dicas para selecionar a paleta de cores perfeita para cada ambiente de sua casa.',
+    title: 'Como Escolher as Cores Ideais para Cada Ambiente',
+    excerpt: 'Descubra como a psicologia das cores pode transformar seus espaços. Compartilho minhas experiências em harmonização cromática.',
     image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2158',
-    category: 'Dicas',
+    category: 'Design',
     date: '10 Mai 2025',
     link: '/blog/como-escolher-cores-ideais-casa',
     author: {
@@ -79,7 +79,7 @@ const posts = [
   {
     id: 2,
     title: 'Tendências em Texturas para 2025',
-    excerpt: 'Descubra as principais tendências em texturas e acabamentos para paredes neste ano.',
+    excerpt: 'Conheça as principais tendências em texturas e acabamentos que estou aplicando em meus projetos neste ano.',
     image: 'https://images.unsplash.com/photo-1604147706283-d7119b5b822c?q=80&w=2070',
     category: 'Tendências',
     date: '05 Mai 2025',
@@ -92,7 +92,7 @@ const posts = [
   {
     id: 3,
     title: 'Guia de Manutenção de Pintura',
-    excerpt: 'Tudo o que você precisa saber para manter sua pintura sempre impecável e duradoura.',
+    excerpt: 'Dicas práticas baseadas em minha experiência para manter sua pintura sempre impecável e durável.',
     image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070',
     category: 'Manutenção',
     date: '01 Mai 2025',

@@ -57,8 +57,7 @@
 
           <div class="bg-gray-50 p-6 rounded-lg my-8">
             <p class="font-medium text-primary mb-4">
-              Quer trazer a elegância das texturas naturais para sua casa? Nossa
-              equipe especializada está pronta para transformar seus ambientes.
+              Quer trazer a elegância das texturas naturais para sua casa? Com mais de 22 anos de experiência, posso ajudar você a escolher a melhor opção.
             </p>
             <a
               href="https://wa.me/5549998324991?text=Olá! Vi o artigo sobre tendências em texturas e gostaria de um orçamento para aplicação de texturas em minha casa."
@@ -94,8 +93,7 @@
 
           <div class="bg-gray-50 p-6 rounded-lg my-8">
             <p class="font-medium text-primary mb-4">
-              Deseja um ambiente moderno e sofisticado com acabamentos
-              industriais premium? Conte com a expertise da RBL Pinturas.
+              Deseja um ambiente moderno e sofisticado com acabamentos industriais premium? Conte com minha experiência para transformar seu espaço.
             </p>
             <a
               href="https://wa.me/5549998324991"
@@ -133,10 +131,7 @@
               Transforme Seus Ambientes com as Últimas Tendências em Texturas
             </h3>
             <p class="mb-6">
-              Na RBL Pinturas, combinamos as últimas tendências com mais de 20
-              anos de expertise para criar ambientes únicos e sofisticados.
-              Nossa equipe especializada está pronta para transformar sua visão
-              em realidade.
+              Com mais de duas décadas de experiência em pintura e texturas, trago para a Grande Florianópolis um trabalho especializado e personalizado. Estou pronta para transformar sua visão em realidade.
             </p>
             <a
               href="https://wa.me/5549998324991"

@@ -28,21 +28,20 @@
       <div class="container relative z-10 text-white">
         <div class="max-w-3xl">
           <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-fadeIn">
-            Transformamos Ambientes com Excelência em Pintura
+            Realizando Sonhos, colorindo a sua vida
           </h1>
           <p
             class="text-xl md:text-2xl mb-8 text-white/90 animate-fadeIn"
             style="animation-delay: 0.2s"
           >
-            Há 20 anos trazendo cor e vida para residências e empresas na Grande
-            Florianópolis
+            Olá! Sou Rosimeri Groth da RBL Pinturas, e há mais de 22 anos transformo ambientes com pintura especializada na região de Santa Catarina.
           </p>
           <div
             class="flex flex-wrap gap-4 animate-fadeIn"
             style="animation-delay: 0.4s"
           >
             <a
-              href="https://wa.me/5549998324991?text=Olá! Gostaria de um orçamento para transformar meu ambiente com seus serviços de pintura."
+              href="https://wa.me/5549998324991?text=Olá! Gostaria de um orçamento para transformar meu ambiente."
               target="_blank"
               rel="noopener noreferrer"
               class="btn bg-white text-primary hover:bg-opacity-90 inline-flex items-center"
@@ -54,7 +53,7 @@
               href="#portfolio"
               class="btn border-2 border-white text-white hover:bg-white hover:text-primary"
             >
-              Ver Projetos
+              Ver Meus Trabalhos
             </a>
           </div>
         </div>
@@ -76,44 +75,50 @@
         <div class="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070"
-              alt="Sobre a RBL Toque Mágico Pinturas"
+              src="~/assets/images/rosimeri.png"
+              alt="Rosimeri Groth - Pintora Profissional"
               class="rounded-lg shadow-lg"
             />
           </div>
           <div>
-            <h2 class="text-4xl font-bold mb-6">Quem Somos</h2>
+            <h2 class="text-4xl font-bold mb-6">22 Anos Transformando Sonhos em Realidade</h2>
             <p class="text-gray-600 mb-6">
-              A RBL Toque Mágico é uma empresa especializada em pintura e
-              acabamentos, com mais de 20 anos de experiência no mercado. Nossa
-              história é marcada pela busca constante da excelência e satisfação
-              dos nossos clientes.
+              Olá! Sou Rosimeri Groth, uma profissional apaixonada pela arte da
+              pintura. Minha jornada começou no interior de Santa Catarina, onde
+              descobri minha vocação para transformar ambientes através das cores
+              e texturas.
+            </p>
+            <p class="text-gray-600 mb-6">
+              Ao longo de mais de duas décadas, aperfeiçoei minhas técnicas e
+              desenvolvi um olhar único para cada projeto. Agora, trago toda essa
+              experiência para a região da Grande Florianópolis, onde continuo
+              dedicada a oferecer um serviço personalizado e de alta qualidade.
             </p>
             <div class="grid grid-cols-2 gap-6 mb-8">
               <div>
-                <h4 class="text-2xl font-bold text-primary mb-2">20+</h4>
+                <h4 class="text-2xl font-bold text-primary mb-2">22+</h4>
                 <p class="text-gray-600">Anos de Experiência</p>
               </div>
               <div>
-                <h4 class="text-2xl font-bold text-primary mb-2">1000+</h4>
-                <p class="text-gray-600">Projetos Realizados</p>
-              </div>
-              <div>
                 <h4 class="text-2xl font-bold text-primary mb-2">100%</h4>
-                <p class="text-gray-600">Clientes Satisfeitos</p>
+                <p class="text-gray-600">Dedicação</p>
               </div>
               <div>
                 <h4 class="text-2xl font-bold text-primary mb-2">5⭐</h4>
-                <p class="text-gray-600">Avaliação Média</p>
+                <p class="text-gray-600">Qualidade</p>
+              </div>
+              <div>
+                <h4 class="text-2xl font-bold text-primary mb-2">💪</h4>
+                <p class="text-gray-600">Comprometimento</p>
               </div>
             </div>
             <div class="flex flex-wrap gap-4">
-              <a href="#services" class="btn btn-primary"> Nossos Serviços </a>
+              <a href="#services" class="btn btn-primary"> Meus Serviços </a>
               <a
                 href="#contact"
                 class="btn border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors"
               >
-                Fale Conosco
+                Fale Comigo
               </a>
             </div>
           </div>
@@ -142,10 +147,8 @@ import BlogSection from "~/components/sections/BlogSection.vue";
 import ContactSection from "~/components/sections/ContactSection.vue";
 
 useMeta({
-  title:
-    "RBL Toque Mágico Pinturas | Pintura Residencial e Comercial em Florianópolis",
-  description:
-    "Há 20 anos trazendo cor e vida para residências e empresas na Grande Florianópolis. Especialistas em pintura residencial, comercial, grafiato, textura e restauração.",
+  title: "Rosimeri Groth - RBL Pinturas | Pintora Profissional em Florianópolis",
+  description: "Com mais de 22 anos de experiência, ofereço serviços especializados de pintura residencial e comercial na região da Grande Florianópolis.",
   image: "/images/social-share.jpg",
 });
 </script>

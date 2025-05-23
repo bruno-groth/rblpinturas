@@ -7,7 +7,7 @@
         </h1>
         <p class="text-xl text-gray-600 text-center mb-12 max-w-2xl mx-auto">
           Descubra dicas, tendências e inspirações para transformar seus
-          ambientes com a expertise de mais de 20 anos da RBL Pinturas.
+          ambientes, compartilhadas através de mais de 22 anos de experiência em pintura.
         </p>
 
         <div
@@ -51,7 +51,7 @@
                 <div>
                   <p class="font-medium">Rosimeri Groth</p>
                   <p class="text-sm text-gray-500">
-                    Especialista em Design de Interiores
+                    Pintora Profissional
                   </p>
                 </div>
               </div>
@@ -95,7 +95,7 @@
                 <div>
                   <p class="font-medium">Rosimeri Groth</p>
                   <p class="text-sm text-gray-500">
-                    Especialista em Acabamentos
+                    Pintora Profissional
                   </p>
                 </div>
               </div>
@@ -139,7 +139,7 @@
                 <div>
                   <p class="font-medium">Rosimeri Groth</p>
                   <p class="text-sm text-gray-500">
-                    Especialista em Restauração
+                    Pintora Profissional
                   </p>
                 </div>
               </div>
@@ -184,7 +184,7 @@
                 <div>
                   <p class="font-medium">Rosimeri Groth</p>
                   <p class="text-sm text-gray-500">
-                    Especialista em Soluções Sustentáveis
+                    Pintora Profissional
                   </p>
                 </div>
               </div>
@@ -194,7 +194,7 @@
 
         <div class="mt-16 text-center">
           <p class="text-xl text-gray-600 mb-8">
-            Quer transformar seus ambientes com a expertise da RBL Pinturas?
+            Quer transformar seus ambientes com mais de 22 anos de experiência em pintura?
           </p>
           <a
             href="https://wa.me/5549998324991"

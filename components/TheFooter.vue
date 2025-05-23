@@ -4,8 +4,8 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
         <!-- Logo and Description -->
         <div class="flex flex-col items-center text-center">
-          <img src="~/assets/images/logo.png" alt="RBL Toque Mágico Pinturas" class="h-20 mb-6 brightness-0 invert">
-          <p class="mb-6">Transformando ambientes com cores e texturas há 20 anos.</p>
+          <img src="~/assets/images/logo.png" alt="Rosimeri Groth - RBL Pinturas" class="h-20 mb-6 brightness-0 invert">
+          <p class="mb-6">Transformando ambientes com dedicação e qualidade há 22 anos na região de Santa Catarina.</p>
           <div class="flex space-x-3">
             <a href="https://instagram.com/rblpinturas" target="_blank" rel="noopener noreferrer" class="social-icon">
               <i class="fab fa-instagram"></i>
@@ -68,7 +68,7 @@
               </a>
             </li>
             <li class="flex items-center text-gray-300">
-              <i class="fas fa-map-marker-alt mr-3"></i> Grande Florianópolis - SC
+              <i class="fas fa-map-marker-alt mr-3"></i> Atendimento em toda Grande Florianópolis - SC
             </li>
           </ul>
         </div>
@@ -76,7 +76,7 @@
       
       <!-- Copyright -->
       <div class="pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-        <p>&copy; {{ new Date().getFullYear() }} RBL Toque Mágico Pinturas. Todos os direitos reservados.</p>
+        <p>&copy; {{ new Date().getFullYear() }} <a href="https://audentestech.com.br" target="_blank">Audentes Tech Solutions LTDA.</a>. Todos os direitos reservados.</p>
       </div>
     </div>
   </footer>

@@ -1,18 +1,18 @@
 <template>
   <section id="contact" class="section">
     <div class="container">
-      <h2 class="section-title">Fale Conosco</h2>
+      <h2 class="section-title">Fale Comigo</h2>
       <p class="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-        Entre em contato conosco para tirar dúvidas ou solicitar um orçamento
+        Entre em contato para tirar suas dúvidas ou solicitar um orçamento personalizado
       </p>
 
       <div class="grid md:grid-cols-2 gap-8 lg:gap-12 items-start">
         <!-- Contact Info -->
         <div class="space-y-8">
           <div>
-            <h3 class="text-2xl font-bold mb-4">Informações de Contato</h3>
+            <h3 class="text-2xl font-bold mb-4">Atendimento Personalizado</h3>
             <p class="text-gray-600 mb-6">
-              Estamos disponíveis para atender você e tirar todas as suas dúvidas sobre nossos serviços.
+              Com mais de 22 anos de experiência em pintura, estou pronta para transformar seu ambiente com dedicação e profissionalismo.
             </p>
           </div>
 
@@ -86,6 +86,24 @@
               >
                 <i class="fab fa-whatsapp"></i>
               </a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="font-semibold mb-3">Sobre Mim</h4>
+            <div class="flex items-center space-x-4">
+              <div class="w-16 h-16 rounded-full overflow-hidden">
+                <img 
+                  src="~/assets/images/rosimeri.jpg" 
+                  alt="Foto de Rosimeri Groth"
+                  class="w-full h-full object-cover"
+                >
+              </div>
+              <div>
+                <h4 class="font-semibold mb-1">Rosimeri Groth</h4>
+                <p class="text-sm text-gray-600">Pintora Profissional</p>
+                <p class="text-sm text-gray-600">22 anos de experiência</p>
+              </div>
             </div>
           </div>
         </div>

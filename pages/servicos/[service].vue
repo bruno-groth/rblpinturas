@@ -44,10 +44,9 @@ interface Service {
 const services: Record<string, Service> = {
   "pintura-residencial": {
     title: "Pintura Residencial",
-    description:
-      "Transformamos sua casa com acabamentos perfeitos, utilizando as melhores tintas e técnicas do mercado.",
+    description: "Transformo sua casa com acabamentos perfeitos, utilizando as melhores tintas e técnicas do mercado.",
     content: `
-      <p>Nossa expertise em pintura residencial garante resultados excepcionais para sua casa. Trabalhamos com as melhores marcas de tintas e oferecemos:</p>
+      <p>Com mais de 22 anos de experiência em pintura residencial, ofereço um serviço personalizado e de alta qualidade para sua casa:</p>
       <ul>
         <li>Pintura interna e externa</li>
         <li>Preparação adequada das superfícies</li>
@@ -55,15 +54,14 @@ const services: Record<string, Service> = {
         <li>Proteção de móveis e acabamentos</li>
         <li>Limpeza pós-serviço</li>
       </ul>
-      <p>Cada projeto é tratado com atenção aos detalhes e compromisso com a qualidade.</p>
+      <p>Cada projeto recebe minha total atenção aos detalhes e compromisso com a excelência.</p>
     `,
   },
   "pintura-comercial": {
     title: "Pintura Comercial",
-    description:
-      "Soluções profissionais para empresas, com foco em durabilidade e prazo de entrega.",
+    description: "Executo serviços profissionais para empresas, com foco em durabilidade e prazo de entrega.",
     content: `
-      <p>Oferecemos serviços especializados para ambientes comerciais, com planejamento cuidadoso para minimizar interferências:</p>
+      <p>Ofereço soluções especializadas para ambientes comerciais, com planejamento cuidadoso para minimizar interferências:</p>
       <ul>
         <li>Pintura de fachadas comerciais</li>
         <li>Renovação de ambientes internos</li>
@@ -71,15 +69,14 @@ const services: Record<string, Service> = {
         <li>Execução em horários flexíveis</li>
         <li>Materiais de alta durabilidade</li>
       </ul>
-      <p>Nosso compromisso é entregar resultados profissionais que valorizam seu negócio.</p>
+      <p>Meu compromisso é entregar resultados profissionais que valorizam seu negócio.</p>
     `,
   },
   "grafiato-textura": {
     title: "Grafiato e Textura",
-    description:
-      "Acabamentos texturizados que proporcionam personalidade e proteção para suas paredes.",
+    description: "Aplico acabamentos texturizados que proporcionam personalidade e proteção para suas paredes.",
     content: `
-      <p>Nossos serviços de grafiato e textura oferecem opções versáteis para personalizar seus ambientes:</p>
+      <p>Com experiência em texturas e grafiato, ofereço opções versáteis para personalizar seus ambientes:</p>
       <ul>
         <li>Texturas tradicionais e modernas</li>
         <li>Grafiato em diversos padrões</li>
@@ -87,15 +84,14 @@ const services: Record<string, Service> = {
         <li>Efeitos especiais personalizados</li>
         <li>Proteção extra contra intempéries</li>
       </ul>
-      <p>Criamos acabamentos únicos que combinam estética e funcionalidade.</p>
+      <p>Crio acabamentos únicos que combinam estética e funcionalidade.</p>
     `,
   },
   restauracao: {
     title: "Restauração",
-    description:
-      "Recuperamos a beleza original de superfícies danificadas com técnicas especializadas.",
+    description: "Recupero a beleza original de superfícies danificadas com técnicas especializadas.",
     content: `
-      <p>Nossa experiência em restauração permite recuperar e renovar diferentes superfícies:</p>
+      <p>Minha experiência em restauração permite recuperar e renovar diferentes superfícies:</p>
       <ul>
         <li>Correção de infiltrações</li>
         <li>Tratamento de trincas e fissuras</li>
@@ -103,15 +99,14 @@ const services: Record<string, Service> = {
         <li>Recuperação de texturas</li>
         <li>Renovação de pinturas antigas</li>
       </ul>
-      <p>Devolvemos vida e proteção para seu imóvel com técnicas apropriadas de restauração.</p>
+      <p>Devolvo vida e proteção para seu imóvel com técnicas apropriadas de restauração.</p>
     `,
   },
   "efeitos-decorativos": {
     title: "Efeitos Decorativos",
-    description:
-      "Criamos ambientes únicos com técnicas especiais de pintura e efeitos decorativos.",
+    description: "Crio ambientes únicos com técnicas especiais de pintura e efeitos decorativos personalizados.",
     content: `
-      <p>Transformamos ambientes com efeitos decorativos exclusivos:</p>
+      <p>Transformo ambientes com efeitos decorativos exclusivos:</p>
       <ul>
         <li>Marmorização</li>
         <li>Pátina</li>
