@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
   ssr: false,
   
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://rblpinturas.com.br'
+    }
+  },
+  
   app: {
     head: {
       title: 'RBL Toque Mágico Pinturas | Serviços de Pintura na Grande Florianópolis',
@@ -19,6 +25,7 @@ export default defineNuxtConfig({
         { property: 'og:description', content: 'Serviços especializados de pintura com 22 anos de experiência' },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://rblpinturas.com.br' },
+        { name: 'robots', content: 'index,follow' },
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
@@ -34,7 +41,20 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
     '@vueuse/nuxt',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots'
   ],
+
+  sitemap: {
+    hostname: process.env.NUXT_PUBLIC_SITE_URL || 'https://rblpinturas.com.br',
+    gzip: true
+  },
+
+  robots: {
+    UserAgent: '*',
+    Allow: '/',
+    Sitemap: `${process.env.NUXT_PUBLIC_SITE_URL || 'https://rblpinturas.com.br'}/sitemap.xml`
+  },
 
   postcss: {
     plugins: {
@@ -58,7 +78,16 @@ export default defineNuxtConfig({
         '/servicos/pintura-comercial',
         '/servicos/grafiato-textura',
         '/servicos/restauracao',
-        '/servicos/efeitos-decorativos'
+        '/servicos/efeitos-decorativos',
+        '/servicos/impermeabilizacao',
+        '/pintor-florianopolis',
+        '/grafiato-textura-grande-florianopolis',
+        '/pintura-residencial-sao-jose',
+        '/blog',
+        '/blog/como-escolher-cores-ideais-casa',
+        '/blog/guia-manutencao-pintura',
+        '/blog/pintura-sustentavel-guia-completo',
+        '/blog/tendencias-texturas-2025'
       ]
     }
   },

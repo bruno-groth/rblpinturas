@@ -115,6 +115,21 @@ const services: Record<string, Service> = {
       <p>Cada técnica é aplicada com precisão para criar ambientes verdadeiramente únicos.</p>
     `,
   },
+  "impermeabilizacao": {
+    title: "Impermeabilização",
+    description: "Protejo seu imóvel contra infiltrações com serviços especializados de impermeabilização.",
+    content: `
+      <p>Ofereço soluções completas em impermeabilização para proteger seu imóvel:</p>
+      <ul>
+        <li>Impermeabilização de lajes</li>
+        <li>Tratamento de fachadas</li>
+        <li>Proteção contra umidade</li>
+        <li>Impermeabilização de banheiros</li>
+        <li>Sistemas preventivos</li>
+      </ul>
+      <p>Garanto proteção duradoura contra infiltrações e umidade com materiais de qualidade.</p>
+    `,
+  },
 };
 
 const service = computed(() => {
@@ -123,16 +138,55 @@ const service = computed(() => {
 });
 
 if (process.client) {
+  const config = useRuntimeConfig()
+  
   useHead(() => ({
-    title: `${service.value?.title || "Serviço"} | RBL Toque Mágico Pinturas`,
+    title: `${service.value?.title || "Serviço"} | RBL Toque Mágico Pinturas - Florianópolis`,
     meta: [
       {
         name: "description",
         content:
           service.value?.description ||
-          "Conheça nossos serviços especializados de pintura.",
+          "Conheça nossos serviços especializados de pintura na Grande Florianópolis.",
       },
+      {
+        name: "keywords",
+        content: `${service.value?.title}, pintura ${service.value?.title?.toLowerCase()}, ${service.value?.title?.toLowerCase()} florianópolis, rbl pinturas, rosimeri groth`
+      }
     ],
+    link: [
+      { rel: 'canonical', href: `${config.public.siteUrl}${route.path}` }
+    ],
+    script: [
+      {
+        type: 'application/ld+json',
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": service.value?.title,
+          "description": service.value?.description,
+          "provider": {
+            "@type": "Person",
+            "name": "Rosimeri Groth",
+            "jobTitle": "Pintora Especializada",
+            "telephone": "+55-49-99832-4991",
+            "email": "rbltoquemagico@gmail.com",
+            "url": "https://rblpinturas.com.br"
+          },
+          "areaServed": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+              "@type": "GeoCoordinates",
+              "latitude": -27.5954,
+              "longitude": -48.5480
+            },
+            "geoRadius": "50000"
+          },
+          "serviceType": service.value?.title,
+          "category": "Pintura e Acabamentos"
+        })
+      }
+    ]
   }));
 }
 </script>

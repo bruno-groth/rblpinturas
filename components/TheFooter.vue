@@ -97,7 +97,11 @@ const services = [
   { name: 'Pintura Comercial', path: '/servicos/pintura-comercial' },
   { name: 'Grafiato e Textura', path: '/servicos/grafiato-textura' },
   { name: 'Restauração', path: '/servicos/restauracao' },
-  { name: 'Efeitos Decorativos', path: '/servicos/efeitos-decorativos' }
+  { name: 'Efeitos Decorativos', path: '/servicos/efeitos-decorativos' },
+  { name: 'Impermeabilização', path: '/servicos/impermeabilizacao' },
+  { name: 'Pintor Florianópolis', path: '/pintor-florianopolis' },
+  { name: 'Grafiato Grande Florianópolis', path: '/grafiato-textura-grande-florianopolis' },
+  { name: 'Pintura São José', path: '/pintura-residencial-sao-jose' }
 ]
 </script>
 

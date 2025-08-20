@@ -4,6 +4,7 @@ interface MetaOptions {
   image?: string;
   url?: string;
   type?: string;
+  keywords?: string;
 }
 
 export const useMeta = (options: MetaOptions) => {
@@ -14,8 +15,9 @@ export const useMeta = (options: MetaOptions) => {
     title: 'RBL Toque Mágico Pinturas | Serviços de Pintura na Grande Florianópolis',
     description: 'Empresa com 20 anos de experiência em pintura residencial e comercial na região da Grande Florianópolis. Conheça nossos serviços de pintura, grafiato, textura e restauração.',
     image: '/images/social-share.jpg',
-    url: 'https://rbltoquemagico.com.br',
-    type: 'website'
+    url: config.public.siteUrl,
+    type: 'website',
+    keywords: 'pintor florianópolis, pintura residencial, grafiato são josé, textura paredes, pintura comercial, efeitos decorativos, restauração pintura, impermeabilização, grande florianópolis'
   }
 
   const meta = {
@@ -23,13 +25,16 @@ export const useMeta = (options: MetaOptions) => {
     description: options.description || defaults.description,
     image: options.image || defaults.image,
     url: options.url || `${defaults.url}${route.path}`,
-    type: options.type || defaults.type
+    type: options.type || defaults.type,
+    keywords: options.keywords || defaults.keywords
   }
 
   useHead({
     title: meta.title,
     meta: [
       { name: 'description', content: meta.description },
+      { name: 'keywords', content: meta.keywords },
+      { name: 'robots', content: 'index,follow' },
       
       // Open Graph
       { property: 'og:type', content: meta.type },

@@ -211,8 +211,8 @@
 
 <script setup>
 useMeta({
-  title: "Blog | RBL Pinturas",
-  description:
-    "Dicas, tendências e inspirações sobre pintura, texturas e decoração. Conteúdo especializado da RBL Pinturas para transformar seus ambientes.",
+  title: "Blog RBL Pinturas | Dicas de Pintura, Texturas e Decoração - Florianópolis",
+  description: "Dicas especializadas sobre pintura, grafiato, texturas e decoração. Conteúdo da pintora Rosimeri Groth com 22 anos de experiência na Grande Florianópolis.",
+  keywords: "blog pintura, dicas pintura, como pintar, escolher cores, texturas, grafiato, manutenção pintura, tendências decoração, florianópolis"
 });
 </script>

@@ -147,8 +147,130 @@ import BlogSection from "~/components/sections/BlogSection.vue";
 import ContactSection from "~/components/sections/ContactSection.vue";
 
 useMeta({
-  title: "Rosimeri Groth - RBL Pinturas | Pintora Profissional em Florianópolis",
-  description: "Com mais de 22 anos de experiência, ofereço serviços especializados de pintura residencial e comercial na região da Grande Florianópolis.",
-  image: "/images/social-share.jpg",
+  title: "RBL Pinturas - Rosimeri Groth | Pintora Florianópolis - 22 Anos de Experiência",
+  description: "Pintora especializada com 22 anos de experiência em pintura residencial, comercial, grafiato e texturas na Grande Florianópolis. Atendo Florianópolis, São José, Palhoça e Biguaçu. Orçamento gratuito!",
+  keywords: "pintor florianópolis, pintura residencial, grafiato, textura, pintura comercial, pintora grande florianópolis, rosimeri groth, rbl pinturas, são josé, palhoça, biguaçu",
+});
+
+// Schema.org structured data
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "RBL Toque Mágico Pinturas",
+        "alternateName": "RBL Pinturas",
+        "description": "Serviços especializados de pintura residencial e comercial na Grande Florianópolis com 22 anos de experiência",
+        "image": "https://rblpinturas.com.br/images/logo.png",
+        "url": "https://rblpinturas.com.br",
+        "telephone": "+55-49-99832-4991",
+        "email": "rbltoquemagico@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "SC",
+          "addressCountry": "BR",
+          "addressLocality": "Florianópolis"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Florianópolis",
+            "addressRegion": "SC",
+            "addressCountry": "BR"
+          },
+          {
+            "@type": "City", 
+            "name": "São José",
+            "addressRegion": "SC",
+            "addressCountry": "BR"
+          },
+          {
+            "@type": "City",
+            "name": "Palhoça", 
+            "addressRegion": "SC",
+            "addressCountry": "BR"
+          },
+          {
+            "@type": "City",
+            "name": "Biguaçu",
+            "addressRegion": "SC", 
+            "addressCountry": "BR"
+          }
+        ],
+        "serviceArea": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": -27.5954,
+            "longitude": -48.5480
+          },
+          "geoRadius": "50000"
+        },
+        "services": [
+          "Pintura Residencial",
+          "Pintura Comercial", 
+          "Grafiato e Textura",
+          "Restauração de Pinturas",
+          "Efeitos Decorativos",
+          "Impermeabilização"
+        ],
+        "priceRange": "$$",
+        "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "Bank Transfer"],
+        "currenciesAccepted": "BRL",
+        "foundingDate": "2002",
+        "founder": {
+          "@type": "Person",
+          "name": "Rosimeri Groth",
+          "jobTitle": "Pintora Especializada",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "RBL Toque Mágico Pinturas"
+          }
+        },
+        "sameAs": [
+          "https://instagram.com/rblpinturas"
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "reviewCount": "50",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Serviços de Pintura",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Pintura Residencial",
+                "description": "Pintura interna e externa para residências"
+              }
+            },
+            {
+              "@type": "Offer", 
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Pintura Comercial",
+                "description": "Pintura para estabelecimentos comerciais"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service", 
+                "name": "Grafiato e Texturas",
+                "description": "Acabamentos texturizados especiais"
+              }
+            }
+          ]
+        }
+      })
+    }
+  ]
 });
 </script>
