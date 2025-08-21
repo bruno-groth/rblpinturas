@@ -19,7 +19,7 @@
         </div>
       </div>
 
-      <div class="container relative z-10 text-white">
+      <div class="container relative z-10 text-white pt-36">
         <div class="max-w-4xl">
           <h1 class="text-4xl md:text-6xl font-bold mb-6">
             Pintura em Florianópolis - Rosimeri Groth

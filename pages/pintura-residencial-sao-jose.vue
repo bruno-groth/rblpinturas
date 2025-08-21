@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative h-screen flex items-center">
+    <section class="relative pt-36 pb-20 bg-gradient-to-br from-teal-600 to-blue-600 text-white">
       <div class="absolute inset-0">
         <div
           class="w-full h-full bg-cover bg-center bg-no-repeat"

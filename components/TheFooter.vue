@@ -93,15 +93,15 @@ const quickLinks = [
 ]
 
 const services = [
-  { name: 'Pintura Residencial', path: '/servicos/pintura-residencial' },
-  { name: 'Pintura Comercial', path: '/servicos/pintura-comercial' },
+  { name: 'Pintura Residencial', path: '/pintura-residencial-florianopolis' },
+  { name: 'Pintura Comercial', path: '/pintura-comercial-florianopolis' },
+  { name: 'Pintura Predial', path: '/pintura-predios-condominios' },
+  { name: 'Pintor Urgente', path: '/pintor-urgente-florianopolis' },
+  { name: 'Pintor Perto de Mim', path: '/pintor-perto-de-mim' },
   { name: 'Grafiato e Textura', path: '/servicos/grafiato-textura' },
-  { name: 'Restauração', path: '/servicos/restauracao' },
-  { name: 'Efeitos Decorativos', path: '/servicos/efeitos-decorativos' },
   { name: 'Impermeabilização', path: '/servicos/impermeabilizacao' },
-  { name: 'Pintor Florianópolis', path: '/pintor-florianopolis' },
-  { name: 'Grafiato Grande Florianópolis', path: '/grafiato-textura-grande-florianopolis' },
-  { name: 'Pintura São José', path: '/pintura-residencial-sao-jose' }
+  { name: 'Melhor Época para Pintar', path: '/melhor-epoca-pintar-casa' },
+  { name: 'Quanto Custa Pintar', path: '/quanto-custa-pintar-casa' }
 ]
 </script>
 
