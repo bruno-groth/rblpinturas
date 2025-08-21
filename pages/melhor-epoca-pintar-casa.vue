@@ -80,7 +80,7 @@
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-lg">
-            <div class="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <div class="bg-violet-100 text-violet-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <i class="fas fa-sun text-2xl"></i>
             </div>
             <h3 class="text-xl font-bold mb-4 text-center">Sol Direto</h3>

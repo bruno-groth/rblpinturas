@@ -26,7 +26,7 @@
             </a>
             <a
               href="tel:+5549998324991"
-              class="btn border-2 border-white text-white hover:bg-white hover:text-purple-600 inline-flex items-center text-lg px-8 py-4"
+              class="btn border-2 border-white text-white hover:bg-white hover:text-violet-600 inline-flex items-center text-lg px-8 py-4"
             >
               <i class="fas fa-phone mr-2"></i>
               (49) 99832-4991
@@ -73,7 +73,7 @@
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-            <div class="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <div class="bg-violet-100 text-violet-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <i class="fas fa-file-invoice text-2xl"></i>
             </div>
             <h3 class="text-xl font-bold mb-4">Nota Fiscal</h3>
@@ -164,7 +164,7 @@
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow text-center">
-            <h3 class="text-lg font-bold mb-4 text-purple-600">🏢 Escritórios</h3>
+            <h3 class="text-lg font-bold mb-4 text-violet-600">🏢 Escritórios</h3>
             <ul class="text-gray-600 space-y-2 text-sm">
               <li>• Ambientes corporativos</li>
               <li>• Salas de reunião</li>
@@ -176,7 +176,7 @@
                 href="https://wa.me/5549998324991?text=Tenho um escritório para pintar."
                 target="_blank"
                 rel="noopener noreferrer"
-                class="btn bg-purple-600 text-white hover:bg-purple-700 btn-sm"
+                class="btn bg-violet-600 text-white hover:bg-violet-700 btn-sm"
               >
                 Orçar Escritório
               </a>
@@ -315,14 +315,17 @@
               href="https://wa.me/5549998324991?text=Quero orçamento do Pacote Premium Comercial."
               target="_blank"
               rel="noopener noreferrer"
-              class="btn bg-green-600 text-white hover:bg-green-700 w-full"
+              class="btn w-full"
+              style="background-color: #16a34a !important; color: white !important;"
+              onmouseover="this.style.backgroundColor='#15803d'"
+              onmouseout="this.style.backgroundColor='#16a34a'"
             >
               Contratar Premium
             </a>
           </div>
 
           <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-            <h3 class="text-2xl font-bold mb-4 text-purple-600">👑 Executivo</h3>
+            <h3 class="text-2xl font-bold mb-4 text-violet-600">👑 Executivo</h3>
             <div class="text-4xl font-bold text-gray-800 mb-4">R$ 60<span class="text-lg">/m²</span></div>
             <ul class="text-gray-600 space-y-3 mb-8">
               <li>✅ Projeto completo</li>
@@ -335,7 +338,7 @@
               href="https://wa.me/5549998324991?text=Quero orçamento do Pacote Executivo."
               target="_blank"
               rel="noopener noreferrer"
-              class="btn bg-purple-600 text-white hover:bg-purple-700 w-full"
+              class="btn bg-violet-600 text-white hover:bg-violet-700 w-full"
             >
               Contratar Executivo
             </a>
@@ -352,7 +355,10 @@
               href="https://wa.me/5549998324991?text=QUERO A OFERTA ESPECIAL! Preciso de pintura comercial hoje."
               target="_blank"
               rel="noopener noreferrer"
-              class="btn bg-yellow-600 text-white hover:bg-yellow-700"
+              class="btn"
+              style="background-color: #d97706 !important; color: white !important;"
+              onmouseover="this.style.backgroundColor='#b45309'"
+              onmouseout="this.style.backgroundColor='#d97706'"
             >
               Garantir Oferta Especial
             </a>
@@ -532,7 +538,7 @@
     </section>
 
     <!-- CTA Final -->
-    <section class="py-20 bg-gradient-to-br from-purple-600 to-blue-600 text-white">
+    <section class="py-20 bg-gradient-to-br from-violet-600 to-blue-600 text-white">
       <div class="container text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">
           💼 Pronto para Valorizar Seu Negócio?
@@ -545,14 +551,14 @@
             href="https://wa.me/5549998324991?text=Quero orçamento comercial profissional para meu negócio!"
             target="_blank"
             rel="noopener noreferrer"
-            class="btn bg-white text-purple-600 hover:bg-opacity-90 inline-flex items-center text-lg px-8 py-4"
+            class="btn bg-white text-violet-600 hover:bg-opacity-90 inline-flex items-center text-lg px-8 py-4"
           >
             <i class="fab fa-whatsapp mr-2"></i>
             Orçamento Comercial
           </a>
           <a
             href="tel:+5549998324991"
-            class="btn border-2 border-white text-white hover:bg-white hover:text-purple-600 inline-flex items-center text-lg px-8 py-4"
+            class="btn border-2 border-white text-white hover:bg-white hover:text-violet-600 inline-flex items-center text-lg px-8 py-4"
           >
             <i class="fas fa-phone mr-2"></i>
             Ligar Agora

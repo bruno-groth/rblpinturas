@@ -145,8 +145,8 @@
             </a>
           </div>
 
-          <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-purple-500">
-            <h3 class="text-xl font-bold mb-4 text-purple-600">🏠 Mudança Hoje</h3>
+          <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-violet-500">
+            <h3 class="text-xl font-bold mb-4 text-violet-600">🏠 Mudança Hoje</h3>
             <p class="text-gray-600 mb-6">
               Entregando imóvel hoje? Mudança amanhã? Pinto em tempo recorde para não atrasar!
             </p>
@@ -332,7 +332,7 @@
           </div>
 
           <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-            <h3 class="text-2xl font-bold mb-4 text-purple-600">🌙 Madrugada</h3>
+            <h3 class="text-2xl font-bold mb-4 text-violet-600">🌙 Madrugada</h3>
             <div class="text-4xl font-bold text-gray-800 mb-4">R$ 150<span class="text-lg">/hora</span></div>
             <p class="text-gray-600 mb-6">Trabalho noturno/madrugada</p>
             <ul class="text-gray-600 space-y-3 mb-8">

@@ -312,7 +312,7 @@
               </div>
 
               <div class="bg-white p-6 rounded-lg shadow">
-                <h4 class="font-bold mb-3 text-purple-600">Cores Análogas</h4>
+                <h4 class="font-bold mb-3 text-violet-600">Cores Análogas</h4>
                 <ul class="text-gray-600 space-y-2">
                   <li>• Azul + Verde + Turquesa</li>
                   <li>• Vermelho + Laranja + Amarelo</li>

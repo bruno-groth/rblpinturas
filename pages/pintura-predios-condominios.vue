@@ -69,7 +69,7 @@
           </div>
 
           <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-            <div class="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+            <div class="bg-violet-100 text-violet-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
               <i class="fas fa-tools text-2xl"></i>
             </div>
             <h3 class="text-xl font-bold mb-4">Manutenção Preventiva</h3>
@@ -168,7 +168,7 @@
             
             <div class="space-y-6">
               <div>
-                <h4 class="font-bold text-lg mb-2 text-purple-600">🎯 Ambientes Atendidos</h4>
+                <h4 class="font-bold text-lg mb-2 text-violet-600">🎯 Ambientes Atendidos</h4>
                 <ul class="text-gray-600 space-y-2">
                   <li>• Hall de entrada e recepção</li>
                   <li>• Escadas e corredores</li>
@@ -190,12 +190,12 @@
               </div>
 
               <div class="text-center">
-                <div class="text-2xl font-bold text-purple-600 mb-4">A partir de R$ 12/m²</div>
+                <div class="text-2xl font-bold text-violet-600 mb-4">A partir de R$ 12/m²</div>
                 <a
                   href="https://wa.me/5549998324991?text=Preciso de orçamento para áreas comuns do condomínio."
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="btn bg-purple-600 text-white hover:bg-purple-700"
+                  class="btn bg-violet-600 text-white hover:bg-violet-700"
                 >
                   Orçar Áreas Comuns
                 </a>
@@ -240,7 +240,7 @@
                 </div>
 
                 <div class="flex items-start">
-                  <div class="bg-purple-100 text-purple-600 rounded-full w-12 h-12 flex items-center justify-center mr-4 flex-shrink-0">
+                  <div class="bg-violet-100 text-violet-600 rounded-full w-12 h-12 flex items-center justify-center mr-4 flex-shrink-0">
                     <i class="fas fa-users text-xl"></i>
                   </div>
                   <div>
@@ -354,7 +354,7 @@
           </div>
 
           <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-            <h3 class="text-xl font-bold mb-4 text-purple-600">👑 Premium Predial</h3>
+            <h3 class="text-xl font-bold mb-4 text-violet-600">👑 Premium Predial</h3>
             <div class="text-3xl font-bold text-gray-800 mb-4">R$ 25<span class="text-lg">/m²</span></div>
             <p class="text-sm text-gray-600 mb-6">Ideal para: Prédios de alto padrão</p>
             <ul class="text-gray-600 space-y-3 mb-8">
@@ -367,7 +367,7 @@
               href="https://wa.me/5549998324991?text=Quero orçamento do Pacote Premium Predial."
               target="_blank"
               rel="noopener noreferrer"
-              class="btn bg-purple-600 text-white hover:bg-purple-700 w-full"
+              class="btn bg-violet-600 text-white hover:bg-violet-700 w-full"
             >
               Contratar Premium
             </a>
@@ -384,7 +384,10 @@
               href="https://wa.me/5549998324991?text=Nosso condomínio tem mais de 20 apartamentos. Quero as condições especiais!"
               target="_blank"
               rel="noopener noreferrer"
-              class="btn bg-yellow-600 text-white hover:bg-yellow-700"
+              class="btn"
+              style="background-color: #d97706 !important; color: white !important;"
+              onmouseover="this.style.backgroundColor='#b45309'"
+              onmouseout="this.style.backgroundColor='#d97706'"
             >
               Consultar Desconto
             </a>

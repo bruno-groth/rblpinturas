@@ -109,7 +109,7 @@
             </a>
           </div>
 
-          <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-purple-500">
+          <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-violet-500">
             <h3 class="text-xl font-bold mb-4">🎨 Pintura Completa</h3>
             <ul class="text-gray-600 space-y-2 mb-6">
               <li>• Casa toda (interna + externa)</li>
@@ -117,12 +117,12 @@
               <li>• Proteção móveis</li>
               <li>• Desconto especial</li>
             </ul>
-            <div class="text-2xl font-bold text-purple-600 mb-4">A partir de R$ 20/m²</div>
+            <div class="text-2xl font-bold text-violet-600 mb-4">A partir de R$ 20/m²</div>
             <a
               href="https://wa.me/5549998324991?text=Quero orçamento para pintura completa da casa."
               target="_blank"
               rel="noopener noreferrer"
-              class="btn bg-purple-600 text-white hover:bg-purple-700 w-full"
+              class="btn bg-violet-600 text-white hover:bg-violet-700 w-full"
             >
               Orçar Agora
             </a>
@@ -172,7 +172,7 @@
               </div>
 
               <div class="flex items-start">
-                <div class="bg-purple-100 text-purple-600 rounded-full w-12 h-12 flex items-center justify-center mr-4 flex-shrink-0">
+                <div class="bg-violet-100 text-violet-600 rounded-full w-12 h-12 flex items-center justify-center mr-4 flex-shrink-0">
                   <i class="fas fa-star text-xl"></i>
                 </div>
                 <div>
