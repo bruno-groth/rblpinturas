@@ -1,5 +1,9 @@
 <template>
   <div>
+    <!-- Schema Markup for SEO -->
+    <LocalBusinessSchema />
+    <FAQSchema />
+    
     <!-- Hero Section -->
     <section class="relative h-screen flex items-center">
       <!-- Hero Background -->

@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   
   runtimeConfig: {
     public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://rblpinturas.com.br'
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://rblpinturas.com.br',
+      googleAnalyticsId: process.env.NUXT_PUBLIC_GA_ID || 'G-XXXXXXXXXX'
     }
   },
   
